@@ -1,0 +1,47 @@
+body {
+    background: gainsboro;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #time {
+    font-size: 50px;
+  }
+  
+  .btns-container {
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    filter: grayscale(0.5);
+  }
+  button:focus {
+    outline: none;
+  }
+  
+  #start_btn {
+    background: green;
+  }
+  #pause_btn {
+    background: blue;
+    display: none;
+  }
+  #reset_btn {
+    background: red;
+    display: none;
+  }
+  #total {
+    display: none;
+  }
+  
