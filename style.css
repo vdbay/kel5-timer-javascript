@@ -1,11 +1,21 @@
 body {
-    background: gainsboro;
+    background-color: sandybrown;
     margin: 0;
     box-sizing: border-box;
+    margin-top: 150px;
   }
   
   .container {
     text-align: center;
+    border : 5px solid black;
+    border-style: dotted;
+    border-radius: 30px;
+    width: 400px;
+    height: 250px;
+    background-color: pink;
+    background-image: url("bg.jpg");
+    background-position-x: -5pt;
+    background-position-y: -5pt;
   }
   
   #time {
