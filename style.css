@@ -1,57 +1,61 @@
 body {
-    background-color: sandybrown;
-    margin: 0;
-    box-sizing: border-box;
-    margin-top: 150px;
-  }
-  
-  .container {
-    text-align: center;
-    border : 5px solid black;
-    border-style: dotted;
-    border-radius: 30px;
-    width: 400px;
-    height: 250px;
-    background-color: pink;
-    background-image: url("bg.jpg");
-    background-position-x: -5pt;
-    background-position-y: -5pt;
-  }
-  
-  #time {
-    font-size: 50px;
-  }
-  
-  .btns-container {
-    margin: 10px 0;
-  }
-  
-  button {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 2px;
-    color: white;
-    cursor: pointer;
-  }
-  button:hover {
-    filter: grayscale(0.5);
-  }
-  button:focus {
-    outline: none;
-  }
-  
-  #start_btn {
-    background: green;
-  }
-  #pause_btn {
-    background: blue;
-    display: none;
-  }
-  #reset_btn {
-    background: red;
-    display: none;
-  }
-  #total {
-    display: none;
-  }
-  
+  background-color: #63B4B8;
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: 150px;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin: auto;
+  border : 5px solid #D6F1F2;
+  border: dashed 4px;
+  border-radius: 20px;
+  width: 400px;
+  height: 220px;
+  background-position-x: 55pt;
+  background-position-y: -30pt;
+}
+
+#time {
+  margin-top: 30px;
+  font-family: 'Allerta Stencil';
+  font-size: 50px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btns-container {
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 15px;
+  border: 1.5px solid white;
+  border-radius: 8px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  filter: grayscale(0.5);
+}
+button:focus {
+  outline: none;
+}
+
+#start_btn {
+  background: #5CDB95;
+}
+#pause_btn {
+  background: #63B4B8;
+  display: none;
+}
+#reset_btn {
+  background: #FF5C58;
+  display: none;
+}
+#total {
+  display: none;
+  font-family: 'Baloo Chettan 2';
+}

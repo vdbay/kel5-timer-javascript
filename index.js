@@ -36,7 +36,7 @@ function reset() {
   pause_btn.innerHTML = 'PAUSE';
   showTotal(total);
   //total.innerHTML = 'Total waktu pengerjaan: '
-  total.innerHTML = 'Total: ' + toTotal(time) ;
+  total.innerHTML = 'Total : ' + toTotal(time) ;
   time = 0;
   timer.innerHTML = toHHMMSS(time);
   hideBtn([pause_btn, reset_btn]);
@@ -64,7 +64,7 @@ function toTotal(time) {
     minutes = `${minutes}`;
     seconds = `${seconds}`;
   
-    return hours + ' jam ' + minutes + ' menit ' + seconds + ' detik';
+    return hours + ' Hours ' + minutes + ' Minute ' + seconds + ' Seconds';
 }
 
 function showBtn(btnArr) {
